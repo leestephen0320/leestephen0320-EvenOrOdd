@@ -17,7 +17,7 @@ public class Lab {
         if(n%2 == 1){
             return "odd";
         } else{
-            return "";
+            return "even";
         }
     }
 }
