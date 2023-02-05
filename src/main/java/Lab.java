@@ -15,9 +15,9 @@ public class Lab {
      */
     public String decide(int n){
         if(n%2 == 1){
-            return "odd";
+            return "Odd";
         }else if(n%2 == 0){
-            return "even";
+            return "Even";
         }else{
             return "";
         }
