@@ -16,8 +16,10 @@ public class Lab {
     public String decide(int n){
         if(n%2 == 1){
             return "odd";
-        } else{
+        }else if(n%2 == 0){
             return "even";
+        }else{
+            return "";
         }
     }
 }
